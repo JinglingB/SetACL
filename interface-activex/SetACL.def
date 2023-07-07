@@ -1,0 +1,9 @@
+; SetACL.def : Declares parameters for the module.
+
+LIBRARY      "SETACL.OCX"
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer PRIVATE

@@ -1,0 +1,194 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "1 TYPELIB ""SetACL.tlb""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,3,2,0
+ PRODUCTVERSION 2,3,2,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "SetACL OCX version"
+            VALUE "CompanyName", "Helge Klein"
+            VALUE "FileDescription", "SetACL 2"
+            VALUE "FileVersion", "2.3.2.0"
+            VALUE "InternalName", "SetACL"
+            VALUE "LegalCopyright", "Copyright © Helge Klein"
+            VALUE "OriginalFilename", "SetACL.ocx"
+            VALUE "ProductName", "SetACL"
+            VALUE "ProductVersion", "2.3.2.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SETACL              BITMAP                  "SetACLCtl.bmp"
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    RTN_USAGE               "Usage instructions were printed"
+    RTN_ERR_GENERAL         "General error"
+    RTN_ERR_PARAMS          "Parameter(s) incorrect"
+    RTN_ERR_OBJECT_NOT_SET  "The object was not set"
+    RTN_ERR_GETSECINFO      "The call to GetNamedSecurityInfo () failed"
+    RTN_ERR_LOOKUP_SID      "The SID for a trustee could not be found"
+    RTN_ERR_INV_DIR_PERMS   "Directory permissions specified are invalid"
+    RTN_ERR_INV_PRN_PERMS   "Printer permissions specified are invalid"
+    RTN_ERR_INV_REG_PERMS   "Registry permissions specified are invalid"
+    RTN_ERR_INV_SVC_PERMS   "Service permissions specified are invalid"
+    RTN_ERR_INV_SHR_PERMS   "Share permissions specified are invalid"
+    RTN_ERR_EN_PRIV         "A privilege could not be enabled"
+    RTN_ERR_DIS_PRIV        "A privilege could not be disabled"
+    RTN_ERR_NO_NOTIFY       "No notification function was given"
+    RTN_ERR_LIST_FAIL       "An error occured in the list function"
+END
+
+STRINGTABLE
+BEGIN
+    RTN_ERR_FINDFILE        "FindFile reported an error"
+    RTN_ERR_GET_SD_CONTROL  "GetSecurityDescriptorControl () failed"
+    RTN_ERR_INTERNAL        "An internal program error occured"
+    RTN_ERR_SETENTRIESINACL "SetEntriesInAcl () failed"
+    RTN_ERR_REG_PATH        "A registry path is incorrect"
+    RTN_ERR_REG_CONNECT     "Connect to a remote registry failed"
+    RTN_ERR_REG_OPEN        "Opening a registry key failed"
+    RTN_ERR_REG_ENUM        "Enumeration of registry keys failed"
+    RTN_ERR_PREPARE         "Preparation failed"
+    RTN_ERR_SETSECINFO      "The call to SetNamedSecurityInfo () failed"
+    RTN_ERR_LIST_OPTIONS    "Incorrect list options specified"
+    RTN_ERR_CONVERT_SID     "A SD could not be converted to/from string format"
+    RTN_ERR_LIST_ACL        "ACL listing failed"
+    RTN_ERR_LOOP_ACL        "Looping through an ACL failed"
+    RTN_ERR_DEL_ACE         "Deleting an ACE failed"
+    RTN_ERR_COPY_ACL        "Copying an ACL failed"
+END
+
+STRINGTABLE
+BEGIN
+    RTN_ERR_ADD_ACE         "Adding an ACE failed"
+    RTN_ERR_NO_LOGFILE      "No backup/restore file was specified"
+    RTN_ERR_OPEN_LOGFILE    "The backup/restore file could not be opened"
+    RTN_ERR_READ_LOGFILE    "A read operation from the backup/restore file failed"
+    RTN_ERR_WRITE_LOGFILE   "A write operation from the backup/restore file failed"
+    RTN_ERR_OS_NOT_SUPPORTED "The operating system is not supported"
+    RTN_ERR_INVALID_SD      "The security descriptor is invalid"
+    RTN_ERR_SET_SD_DACL     "The call to SetSecurityDescriptorDacl () failed"
+    RTN_ERR_SET_SD_SACL     "The call to SetSecurityDescriptorSacl () failed"
+    RTN_ERR_SET_SD_OWNER    "The call to SetSecurityDescriptorOwner () failed"
+    RTN_ERR_SET_SD_GROUP    "The call to SetSecurityDescriptorGroup () failed"
+    RTN_ERR_INV_DOMAIN      "The domain specified is invalid"
+    RTN_ERR_IGNORED         "An error occured, but it was ignored"
+    RTN_ERR_CREATE_SD       "The creation of an SD failed"
+    IDS_STRINGRTN_ERR_OUT_OF_MEMORY "Memory allocation failed"
+    RTN_ERR_NO_ACTN_SPECIFIED "No action specified - nothing to do"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SETACL              "SetACL Control"
+END
+
+STRINGTABLE
+BEGIN
+    RTN_ERR_INV_WMI_PERMS   "WMI permissions specified are invalid"
+    RTN_WRN_RECURSION_IMPOSSIBLE "Recursion is not possible"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+1 TYPELIB "SetACL.tlb"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
